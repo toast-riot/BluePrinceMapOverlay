@@ -82,7 +82,6 @@ namespace BluePrinceMapOverlay
             GameObject hud = GameObject.Find(HudGameObjectPath);
             if (hud == null)
             {
-                LoggerInstance.Msg($"HUD GameObject \"{HudGameObjectPath}\" not found in the scene, skipping map overlay creation.");
                 return;
             }
 
