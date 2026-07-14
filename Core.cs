@@ -159,7 +159,7 @@ namespace BluePrinceMapOverlay
         {
             string bundlePath = Path.Combine(MelonEnvironment.ModsDirectory, BundlePathSuffix);
             LoggerInstance.Msg($"Bundle Path: {bundlePath}");
-            AssetBundle bundle = AssetBundle.LoadFromFile(bundlePath);
+            Il2CppAssetBundle bundle = Il2CppAssetBundleManager.LoadFromFile(bundlePath);
             if (bundle == null)
             {
                 LoggerInstance.Error($"Failed to load asset bundle from path: {bundlePath}");

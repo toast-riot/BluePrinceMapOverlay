@@ -25,6 +25,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="UnityEngine.Il2CppAssetBundleManager">
+      <HintPath>$(MelonLoaderPath)\net6\UnityEngine.Il2CppAssetBundleManager.dll</HintPath>
+    </Reference>
     <Reference Include="MelonLoader">
       <HintPath>$(MelonLoaderPath)\net6\MelonLoader.dll</HintPath>
     </Reference>
